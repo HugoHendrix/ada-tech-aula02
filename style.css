@@ -1,17 +1,16 @@
 .body-custom {
     font-family: 'Fira Code', monospace;
-    background: #101420;
-    color: black;
+    background: linear-gradient(93.08deg,
+    rgba(166, 247, 80, 0.14) 19.31%,
+    rgba(61, 44, 255, 0) 75.52%),
+rgb(24, 28, 35);   
+ color: black;
+ margin: 2rem;
+ padding: 2rem ;
 
 }
 
-.header-custom {
-    border-bottom: 4px solid #36491f;
-    background-color: #101420;
-    color: #68b517;
-    padding: 1.2rem;
 
-}
 
 .custom-title {
     color: #68b517;
