@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap">
     
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
     <title>Projeto de Prática de Conceitos de HTML e CSS</title>
 </head>
@@ -124,16 +125,194 @@
             <ol class="list-group">
                 <li class="list-group-item">Desligue a energia: Certifique-se de que a energia elétrica do local onde você está trabalhando esteja desligada</li>
                 <li class="list-group-item">Escolha a lâmpada certa: Verifique o tipo de lâmpada que você vai substituir e compre uma nova do mesmo tipo.</li>
-                <li class="list-group-item">Pegue as ferramentas necessárias: Você pode precisar de uma escada, luvas e, claro, a nova lâmpada.</li>
+                <li class="list-group-item">Pegue as ferramentas necessárias: Você pode precisar de:
+                    <ol type="a">
+                        <li>Uma escada</li>
+                        <li>Luvas</li>
+                        <li>A nova lâmpada</li>
+                    </ol>
+                </li>
                 <li class="list-group-item">Suba na escada: Com cuidado, suba na escada e posicione-a sob a lâmpada que você deseja trocar.</li>
-                <li class="list-group-item">Remova a lâmpada antiga: Desparafuse ou desencaixe a lâmpada antiga, segurando-a firmemente enquanto faz isso.</li>
-                <li class="list-group-item">Instale a nova lâmpada: Encaixe ou rosqueie a nova lâmpada no soquete no lugar da antiga.</li>
-                <li class="list-group-item">Acenda a energia: Ligue a eletricidade novamente e teste a nova lâmpada para garantir que esteja funcionando corretamente.</li>
+                <li class="list-group-item">Troque a lâmpada:
+                    <ol type="i">
+                        <li>Remova a lâmpada antiga: Desparafuse ou desencaixe a lâmpada antiga, segurando-a firmemente enquanto faz isso.</li>
+                        <li>Instale a nova lâmpada: Encaixe ou rosqueie a nova lâmpada no soquete no lugar da antiga.</li>
+                    </ol>
+                </li>
+                <li class="list-group-item">Finalize o processo:
+                    <ol type="I">
+                        <li>Acenda a energia: Ligue a eletricidade novamente.</li>
+                        <li>Teste a nova lâmpada para garantir que esteja funcionando corretamente.</li>
+                    </ol>
+                </li>
             </ol>
         </div>
+        
+        <section class="container custom-container">
+            <h1 class="mt-4 custom-title">Tabela de Notas dos Alunos</h1>
     
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Aluno</th>
+                        <th>Nota 1</th>
+                        <th>Nota 2</th>
+                        <th>Nota 3</th>
+                        <th>Nota 4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Aluno 1</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Aluno 2</td>
+                        <td>9</td>
+                        <td>8</td>
+                        <td>7</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>Aluno 3</td>
+                        <td>8</td>
+                        <td>5</td>
+                        <td>1</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Aluno 4</td>
+                        <td>1</td>
+                        <td>8</td>
+                        <td>7</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
+
+        <section class="container custom-container">
+
+            <div class="container">
+                <h1 class="my-4 custom-title" >Tabela de Informações</h1>
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th></th>
+                            <th colspan="2">Informações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td class="font-weight-bold">Idade</td>
+                            <td class="font-weight-bold">Peso</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="font-weight-bold">Homens</td>
+                            <td>18</td>
+                            <td>67kg</td>
+                        </tr>
+                        <tr>
+                            <td>45</td>
+                            <td>89kg</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="font-weight-bold">Mulheres</td>
+                            <td>31</td>
+                            <td>87kg</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>56kg</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="container custom-container">
+            <div class="container mt-4">
+                <h1 class="my-4 custom-title" >Tabela de Filmes</h1>
+
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Nome</th>
+                            <th>Nota</th>
+                            <th>Imagem</th>
+                            <th>Atores Principais</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="https://www.imdb.com/title/tt0468569/" target="_blank">O Cavaleiro das Trevas</a></td>
+                            <td>9.0</td>
+                            <td><img src="./assets/cavaleiro-das-trevas.png" width="80" alt="Imagem do filme" class="img-fluid"></td>
+                            <td>Christian Bale, Heath Ledger, Aaron Eckhart</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.imdb.com/title/tt2527336/" target="_blank">Star Wars: O Despertar da Força</a></td>
+                            <td>7.8</td>
+                            <td><img src="./assets/starwars.png" width="80" alt="Imagem do filme" class="img-fluid"></td>
+                            <td>Daisy Ridley, John Boyega, Oscar Isaac</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.imdb.com/title/tt0903747/?ref_=nv_sr_srsg_2_tt_8_nm_0_q_break%2520in%2520bad" target="_blank">Breaking Bad</a></td>
+                            <td>9.5</td>
+                            <td><img src="./assets/breaking-bad.png" width="80" alt="Imagem da série" class="img-fluid"></td>
+                            <td>Bryan Cranston, Aaron Paul, Anna Gunn</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.imdb.com/title/tt0944947/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_game%2520of%2520t" target="_blank">Game of Thrones</a></td>
+                            <td>9.3</td>
+                            <td><img src="./assets/game-of-thrones.png" width="80" alt="Imagem da série" class="img-fluid"></td>
+                            <td>Emilia Clarke, Kit Harington, Peter Dinklage</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </main>
+    <div class="custom-container"> 
+  <!-- Footer -->
+  <footer class="mt-4 container-fluid">
+    <div class="container">
+        <p>Exercícios aula 2</p>
+        <p>&copy; 2023 Ada Tech & iFood #VemSerTech - Aluno Hugo Hendrix</p>
+
+        <div class="row">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6 text-center">
+                <!-- Links das redes sociais com ícones do Font Awesome -->
+                <a href="https://www.instagram.com/hugo_hendrix/" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram fa-2x icon-custom" ></i>
+                </a>
+                <a href="https://bio.link/hugohendrix" target="_blank" class="social-icon">
+                    <i class="fas fa-link fa-2x icon-custom"></i>
+                </a>
+                <a href="https://github.com/HugoHendrix" target="_blank" class="social-icon">
+                    <i class="fab fa-github fa-2x icon-custom"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/hugohendrix/" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin fa-2x icon-custom"></i>
+                </a>
+
+                <a href="mailto:hugohendrixc@gmail.com" class="social-icon">
+                    <i class="fas fa-envelope fa-2x icon-custom"></i>
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
