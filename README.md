@@ -1,7 +1,5 @@
 # Minha Jornada no Desenvolvimento Front-End: Aula 2 do Vem Ser Tech
 
-Se você está começando sua jornada no mundo da programação e deseja se aprofundar no desenvolvimento front-end, a segunda aula do programa Vem Ser Tech (uma parceria entre Ada Tech e iFood) é uma excelente fonte de conhecimento. Neste projeto, vou compartilhar os principais conceitos que aprendi na aula para ajudar você a consolidar seu aprendizado.
-
 
 ### Listas Não Ordenadas
 
